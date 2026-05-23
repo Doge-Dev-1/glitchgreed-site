@@ -13,7 +13,7 @@ The glitch that turns your worst trades into community wins.
 
 ### Links
 - Website: https://glitchgreed.xyz
-- X: @GlitchGreed (coming)
+- X: https://x.com/GlitchGreed
 - Telegram: (coming)
 - Pump.fun: (coming)
 
