@@ -31,7 +31,7 @@ export default function Home() {
             className="glitch rounded-2xl border-4 border-[#22ff88] shadow-2xl w-full max-w-md h-auto"
           />
 
-          {/* Stronger Watermark Cover */}
+          {/* Watermark Cover */}
           <div className="absolute bottom-0 left-0 right-0 h-16 bg-linear-to-t from-black via-black/90 to-transparent pointer-events-none"></div>
 
           {/* Sound Toggle Button */}
@@ -42,11 +42,12 @@ export default function Home() {
             {isMuted ? "🔇 Sound Off" : "🔊 Sound On"}
           </button>
         </div>
-        <h1 className="text-7xl md:text-8xl font-black tracking-tighter mb-4 text-center">
+
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-4 text-center">
           GLITCH<span className="text-[#22ff88]">GREED</span>
         </h1>
 
-        <p className="text-4xl md:text-5xl mb-10 text-center neon-text">
+        <p className="text-3xl sm:text-4xl md:text-5xl mb-10 text-center neon-text">
           Rug yourself... into profit.
         </p>
 
@@ -60,7 +61,7 @@ export default function Home() {
           </a>
         </div>
 
-        <p className="mt-12 text-xl opacity-70 text-center max-w-md">
+        <p className="mt-12 text-lg sm:text-xl opacity-70 text-center max-w-md">
           The chaotic glitch goblin that turns your worst trades into gains 🟥 →
           🟩
         </p>
