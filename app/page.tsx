@@ -31,10 +31,8 @@ export default function Home() {
             className="glitch rounded-2xl border-4 border-[#22ff88] shadow-2xl w-full max-w-md h-auto"
           />
 
-          {/* Watermark Cover */}
           <div className="absolute bottom-0 left-0 right-0 h-16 bg-linear-to-t from-black via-black/90 to-transparent pointer-events-none"></div>
 
-          {/* Sound Toggle Button */}
           <button
             onClick={toggleSound}
             className="absolute -bottom-4 right-4 bg-black/80 hover:bg-black text-white px-5 py-2 rounded-full text-sm flex items-center gap-2 border border-[#22ff88] transition z-10"
@@ -67,8 +65,44 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Tokenomics */}
+      {/* Glitch Vault Teaser */}
       <section className="py-24 bg-zinc-950 border-t border-zinc-800">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-5xl font-bold mb-6">GLITCH VAULT</h2>
+          <p className="text-2xl mb-12 text-[#22ff88]">
+            Staking Rewards Coming After Launch
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-zinc-900 p-8 rounded-3xl">
+              <h3 className="text-2xl mb-4">Earn $GLITCH</h3>
+              <p className="text-zinc-400">
+                Stake to earn from the 20% creator treasury
+              </p>
+            </div>
+            <div className="bg-zinc-900 p-8 rounded-3xl">
+              <h3 className="text-2xl mb-4">Glitch Events</h3>
+              <p className="text-zinc-400">
+                Random reward drops + buybacks to stakers
+              </p>
+            </div>
+            <div className="bg-zinc-900 p-8 rounded-3xl">
+              <h3 className="text-2xl mb-4">Worst Trade Club</h3>
+              <p className="text-zinc-400">
+                Submit your rugs → Win airdrops & NFTs
+              </p>
+            </div>
+          </div>
+
+          <p className="mt-12 text-xl opacity-70">
+            Full staking dashboard + wallet connection will be added after we
+            graduate Pump.fun
+          </p>
+        </div>
+      </section>
+
+      {/* Tokenomics */}
+      <section className="py-24 border-t border-zinc-800">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-5xl font-bold mb-16">Tokenomics</h2>
           <div className="grid md:grid-cols-2 gap-12 text-left">
@@ -86,9 +120,9 @@ export default function Home() {
             <div className="bg-zinc-900 p-8 rounded-3xl">
               <h3 className="text-2xl mb-6 text-[#22ff88]">Glitch Vault</h3>
               <p className="text-lg leading-relaxed">
-                Stake $GLITCH to earn rewards from the treasury.
+                Treasury-funded rewards.
                 <br />
-                Submit your worst trade screenshots for airdrops and NFTs.
+                No inflation. Real utility for holders.
               </p>
             </div>
           </div>
