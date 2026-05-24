@@ -49,13 +49,29 @@ export default function Home() {
           Rug yourself... into profit.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6">
+        <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="https://pump.fun"
             target="_blank"
             className="bg-white text-black px-10 py-4 text-xl font-bold rounded-2xl hover:scale-105 transition text-center"
           >
             Launching Soon on Pump.fun
+          </a>
+
+          <a
+            href="https://t.me/+2R_Go8SiD20xOGM1"
+            target="_blank"
+            className="bg-[#229ED9] text-white px-10 py-4 text-xl font-bold rounded-2xl hover:scale-105 transition text-center"
+          >
+            Join Telegram
+          </a>
+
+          <a
+            href="https://x.com/GlitchGreed"
+            target="_blank"
+            className="bg-black border-2 border-white text-white px-10 py-4 text-xl font-bold rounded-2xl hover:scale-105 transition text-center"
+          >
+            Follow on X
           </a>
         </div>
 
@@ -77,60 +93,39 @@ export default function Home() {
             <div className="bg-zinc-900 p-8 rounded-3xl">
               <h3 className="text-2xl mb-4">Earn $GLITCH</h3>
               <p className="text-zinc-400">
-                Stake to earn from the 20% creator treasury
+                Stake to earn from the 20% treasury
               </p>
             </div>
             <div className="bg-zinc-900 p-8 rounded-3xl">
               <h3 className="text-2xl mb-4">Glitch Events</h3>
-              <p className="text-zinc-400">
-                Random reward drops + buybacks to stakers
-              </p>
+              <p className="text-zinc-400">Random reward drops to stakers</p>
             </div>
             <div className="bg-zinc-900 p-8 rounded-3xl">
               <h3 className="text-2xl mb-4">Worst Trade Club</h3>
-              <p className="text-zinc-400">
-                Submit your rugs → Win airdrops & NFTs
-              </p>
-            </div>
-          </div>
-
-          <p className="mt-12 text-xl opacity-70">
-            Full staking dashboard + wallet connection will be added after we
-            graduate Pump.fun
-          </p>
-        </div>
-      </section>
-
-      {/* Tokenomics */}
-      <section className="py-24 border-t border-zinc-800">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-5xl font-bold mb-16">Tokenomics</h2>
-          <div className="grid md:grid-cols-2 gap-12 text-left">
-            <div className="bg-zinc-900 p-8 rounded-3xl">
-              <h3 className="text-2xl mb-6 text-[#22ff88]">
-                Supply: 1,000,000,000 $GLITCH
-              </h3>
-              <ul className="space-y-4 text-lg">
-                <li>✅ 80% — Bonding Curve (Fair Launch)</li>
-                <li>✅ 20% — Creator Bag (Rewards + Marketing)</li>
-                <li>✅ No Mayhem Mode</li>
-                <li>✅ Mint Authority Revoked</li>
-              </ul>
-            </div>
-            <div className="bg-zinc-900 p-8 rounded-3xl">
-              <h3 className="text-2xl mb-6 text-[#22ff88]">Glitch Vault</h3>
-              <p className="text-lg leading-relaxed">
-                Treasury-funded rewards.
-                <br />
-                No inflation. Real utility for holders.
-              </p>
+              <p className="text-zinc-400">Submit rugs → Win airdrops & NFTs</p>
             </div>
           </div>
         </div>
       </section>
 
       <footer className="py-12 text-center border-t border-zinc-800">
-        <p>Built with chaos on Solana • glitchgreed.xyz</p>
+        <p className="mb-4">Built with chaos on Solana</p>
+        <div className="flex justify-center gap-6 text-lg">
+          <a
+            href="https://t.me/+2R_Go8SiD20xOGM1"
+            target="_blank"
+            className="text-[#229ED9] hover:underline"
+          >
+            Telegram
+          </a>
+          <a
+            href="https://x.com/GlitchGreed"
+            target="_blank"
+            className="text-white hover:underline"
+          >
+            X / Twitter
+          </a>
+        </div>
       </footer>
     </main>
   );
