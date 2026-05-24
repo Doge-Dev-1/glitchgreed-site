@@ -6,7 +6,8 @@ export const metadata: Metadata = {
   description:
     "Rug yourself... into profit. The chaotic glitch goblin on Solana.",
   icons: {
-    icon: "/mascot.jpeg",
+    icon: "/mascot.jpeg", // This is the browser tab icon
+    apple: "/mascot.jpeg",
   },
 };
 
