@@ -23,7 +23,7 @@ export default function Home() {
         <div className="relative mb-8 z-10">
           <video
             ref={videoRef}
-            src="/glitchgreed.mp4"
+            src="/glitchgreedvoice.mp4"
             autoPlay
             loop
             muted={isMuted}
