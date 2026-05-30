@@ -84,7 +84,7 @@ export default function Home() {
                 The Glitched Paper
               </Link>
               <a
-                href="https://t.me/+2R_Go8SiD20xOGM1"
+                href="https://t.me/glitchgreed"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#22ff88] transition"
